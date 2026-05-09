@@ -1,0 +1,124 @@
+{
+  "tiles": [
+    {
+      "id": "tile_001",
+      "title": "Ocean Blue Ceramic",
+      "description": "Premium glossy ceramic tile with rich ocean blue finish",
+      "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+      "category": "ceramic",
+      "price": 52.99,
+      "dimensions": "60x60 cm",
+      "material": "Ceramic",
+      "inStock": true,
+      "tags": ["Blue", "Glossy", "Modern"]
+    },
+    {
+      "id": "tile_002",
+      "title": "Carrara White Marble",
+      "description": "Elegant Italian Carrara marble with natural veining",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+      "category": "marble",
+      "price": 145.00,
+      "dimensions": "120x60 cm",
+      "material": "Natural Marble",
+      "inStock": true,
+      "tags": ["Luxury", "White", "Marble"]
+    },
+    {
+      "id": "tile_003",
+      "title": "Rustic Terracotta",
+      "description": "Warm handmade terracotta tiles with earthy tone",
+      "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop",
+      "category": "terracotta",
+      "price": 35.50,
+      "dimensions": "30x30 cm",
+      "material": "Terracotta",
+      "inStock": true,
+      "tags": ["Rustic", "Earthy"]
+    },
+    {
+      "id": "tile_004",
+      "title": "Matte Black Porcelain",
+      "description": "Sleek matte black porcelain for modern spaces",
+      "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop",
+      "category": "porcelain",
+      "price": 68.99,
+      "dimensions": "80x80 cm",
+      "material": "Porcelain",
+      "inStock": true,
+      "tags": ["Black", "Matte", "Modern"]
+    },
+    {
+      "id": "tile_005",
+      "title": "Emerald Green Mosaic",
+      "description": "Luxurious emerald green glass mosaic",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+      "category": "mosaic",
+      "price": 78.00,
+      "dimensions": "25x25 cm",
+      "material": "Glass",
+      "inStock": true,
+      "tags": ["Green", "Mosaic", "Luxury"]
+    },
+    {
+      "id": "tile_006",
+      "title": "Beige Sandstone Tile",
+      "description": "Natural beige sandstone effect matte tile",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop",
+      "category": "stone",
+      "price": 47.99,
+      "dimensions": "60x120 cm",
+      "material": "Porcelain",
+      "inStock": true,
+      "tags": ["Beige", "Natural"]
+    },
+    {
+      "id": "tile_007",
+      "title": "Golden Calacatta Marble",
+      "description": "Premium golden veined marble effect tile",
+      "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?q=80&w=1200&auto=format&fit=crop",
+      "category": "marble",
+      "price": 168.00,
+      "dimensions": "120x60 cm",
+      "material": "Porcelain",
+      "inStock": true,
+      "tags": ["Gold", "Luxury"]
+    },
+    {
+      "id": "tile_008",
+      "title": "Hexagon Grey Cement",
+      "description": "Modern grey hexagon cement look tiles",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+      "category": "cement",
+      "price": 41.99,
+      "dimensions": "20x23 cm",
+      "material": "Porcelain",
+      "inStock": true,
+      "tags": ["Geometric", "Grey"]
+    },
+    {
+      "id": "tile_009",
+      "title": "Rose Gold Metallic",
+      "description": "Elegant metallic rose gold ceramic tile",
+      "image": "https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop",
+      "category": "ceramic",
+      "price": 79.99,
+      "dimensions": "60x60 cm",
+      "material": "Ceramic",
+      "inStock": true,
+      "tags": ["Metallic", "Pink"]
+    },
+    {
+      "id": "tile_010",
+      "title": "Walnut Wood Look",
+      "description": "Realistic dark walnut wood effect tile",
+      "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop",
+      "category": "wood",
+      "price": 52.50,
+      "dimensions": "20x120 cm",
+      "material": "Porcelain",
+      "inStock": true,
+      "tags": ["Wood", "Brown"]
+    }
+  ]
+}
