@@ -11,13 +11,13 @@ export default function FeaturedTiles() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5000/tiles")
-      .then(res => res.json())
-      .then(data => {
-        setTiles(data.slice(0, 6));
+    fetch("/data/tiles.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setTiles(data.tiles.slice(0, 6));
         setLoading(false);
       })
-      .catch(err => {
+      .catch((err) => {
         console.error(err);
         setLoading(false);
       });
@@ -45,8 +45,8 @@ export default function FeaturedTiles() {
         <SwiperSlide key={tile.id}>
           <div className="tile-card group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 h-full flex flex-col border border-slate-100">
             <div className="relative h-72 overflow-hidden">
-              <img 
-                src={tile.image} 
+              <img
+                src={tile.image}
                 alt={tile.title}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
@@ -63,13 +63,13 @@ export default function FeaturedTiles() {
               <h3 className="font-semibold text-xl leading-tight mb-3 line-clamp-2 text-slate-800 group-hover:text-indigo-700 transition-colors">
                 {tile.title}
               </h3>
-              
+
               <p className="text-slate-600 text-sm line-clamp-3 mb-8 flex-1">
                 {tile.description}
               </p>
 
               <div className="mt-auto">
-                <Link 
+                <Link
                   href={`/tile/${tile.id}`}
                   className="block w-full text-center bg-indigo-600 hover:bg-indigo-700 text-white py-3.5 rounded-2xl font-medium text-base transition-all active:scale-95"
                 >
