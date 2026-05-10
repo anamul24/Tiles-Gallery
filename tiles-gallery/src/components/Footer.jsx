@@ -54,7 +54,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-6 mt-12 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-        © 2026 Artisanal Tile Gallery. All rights reserved.
+        © 2026 Tiles Gallery. All rights reserved.
       </div>
     </footer>
   );
