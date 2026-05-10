@@ -82,7 +82,7 @@ export default function UpdateProfile() {
                 value={image}
                 onChange={(e) => setImage(e.target.value)}
                 className="w-full bg-slate-800 border border-slate-700 rounded-2xl px-5 py-4 text-white focus:outline-none focus:border-indigo-500"
-                placeholder="https://example.com/your-photo.jpg"
+                placeholder=" "
               />
             </div>
 
