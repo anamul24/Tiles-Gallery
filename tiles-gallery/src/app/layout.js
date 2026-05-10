@@ -13,8 +13,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="bg-slate-50" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
+      <body className="bg-slate-50" >
         <Navbar />
         <main>{children}</main>
         <Footer />
