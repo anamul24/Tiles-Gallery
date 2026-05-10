@@ -3,9 +3,19 @@ import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEye, FaEyeSlash, FaGithub, FaGoogle } from "react-icons/fa";
 
 const RegisterPage = () => {
+  const handleGoogleSignin = async () => {
+    const data = await authClient.signIn.social({
+      provider: "google",
+    });
+  };
+  const handleGithubSignin = async () => {
+    const data = await authClient.signIn.social({
+      provider: "github",
+    });
+  };
   const {
     register,
     handleSubmit,
@@ -44,7 +54,7 @@ const RegisterPage = () => {
       <div className="w-full max-w-md bg-white shadow-2xl rounded-3xl p-8 border border-slate-100">
         <div className="text-center mb-8">
           <h2 className="text-4xl font-bold text-slate-900">Create Account</h2>
-          <p className="text-slate-500 mt-2">Join TileStadia and explore premium tiles</p>
+          <p className="text-slate-500 mt-2">Join Tiles Gallery and explore premium tiles</p>
         </div>
         <form className="space-y-5" onSubmit={handleSubmit(handleRegisterFunc)}>
           <div>
@@ -123,9 +133,38 @@ const RegisterPage = () => {
             )}
           </div>
 
+
           <button type="submit"
             className="w-full h-12 rounded-xl bg-violet-600 hover:bg-violet-700 transition-all duration-300 text-white font-semibold shadow-lg hover:shadow-violet-300"
           > Register </button>
+
+          <div className="mt-6 space-y-3">
+            <div className="relative flex items-center justify-center">
+              <span className="absolute px-3 bg-white text-sm text-slate-400">
+                Or continue with
+              </span>
+              <div className="w-full border-t border-slate-200"></div>
+            </div>
+
+            <button
+              type="button"
+              onClick={handleGoogleSignin}
+              className="w-full flex items-center justify-center gap-3 h-12 rounded-xl border border-slate-200 hover:bg-slate-50 transition font-medium"
+            >
+              <FaGoogle className="text-blue-600" />
+              Google
+            </button>
+
+            <button
+              type="button"
+              onClick={handleGithubSignin}
+              className="w-full flex items-center justify-center gap-3 h-12 rounded-xl border border-slate-200 hover:bg-slate-50 transition font-medium"
+            >
+              <FaGithub className="text-slate-800" />
+               GitHub
+            </button>
+          </div>
+
         </form>
         <p className="text-center text-slate-600 mt-6">
           Already have an account?{" "}
