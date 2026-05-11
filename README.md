@@ -1,4 +1,4 @@
-# TileGallery
+# TilesGallery
 A modern tile-based web application built with Next.js, designed to showcase dynamic UI components, authentication flow, and responsive design.
 
 ## Live Demo
