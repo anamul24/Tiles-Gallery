@@ -54,7 +54,8 @@ export default function Footer() {
         </div>
       </div>
       <div className="max-w-7xl mx-auto px-6 mt-12 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-        © 2026 Tiles Gallery. All rights reserved.
+        <span className="text-white font-bold">© 2026 Tiles Gallery. All rights reserved</span>
+        <span className="font-bold text-blue-500"><Link href="https://tiles-gallery-brown-psi.vercel.app/">Developed by Anamul Islam</Link></span>
       </div>
     </footer>
   );
